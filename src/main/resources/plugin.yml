@@ -1,6 +1,6 @@
 name: AdminUtils
 version: 1.0
-main: com.themissingcrowbar.adminUtils.main
+main: com.themissingcrowbar.adminUtils.Main
 
 commands:
   getWarnings:

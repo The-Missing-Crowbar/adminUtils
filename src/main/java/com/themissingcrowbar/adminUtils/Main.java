@@ -2,7 +2,7 @@ package com.themissingcrowbar.adminUtils;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class main extends JavaPlugin {
+public class Main extends JavaPlugin {
     @Override
     public void onDisable() {
         getLogger().info("Initializing AdminUtils");
@@ -17,5 +17,6 @@ public class main extends JavaPlugin {
         this.getCommand("getWarnTypes").setExecutor(new CommandGetWarnTypes());
         this.getCommand("editWarn").setExecutor(new CommandEditWarn());
         this.getCommand("deleteWarn").setExecutor(new CommandDeleteWarn());
+        Database.editWarn(1, "player", "KLJLJL");
     }
 }
