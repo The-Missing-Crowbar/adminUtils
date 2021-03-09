@@ -10,6 +10,12 @@ public class main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        super.onEnable();
+        getLogger().info("Init AdminUtils");
+        getLogger().info("Registering commands");
+        this.getCommand("getWarnings").setExecutor(new CommandGetWarnings());
+        this.getCommand("warn").setExecutor(new CommandWarn());
+        this.getCommand("getWarnTypes").setExecutor(new CommandGetWarnTypes());
+        this.getCommand("editWarn").setExecutor(new CommandEditWarn());
+        this.getCommand("deleteWarn").setExecutor(new CommandDeleteWarn());
     }
 }
