@@ -33,10 +33,3 @@ commands:
     description: Returns the total heat of a player
     permission: adminutils.warnings.getHeat
 
-  getBanTime:
-    usage: /<command> player
-    description: Returns when a players ban would be over
-    permission: adminutils.warnings.getBanTime
-
-
-

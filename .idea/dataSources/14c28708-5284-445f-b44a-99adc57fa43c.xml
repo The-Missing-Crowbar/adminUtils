@@ -1456,7 +1456,7 @@ ALL PRIVILEGES|minecraft_tardis
     <table id="461" parent="5" name="warning_punishment_map">
       <Collation>latin1_swedish_ci</Collation>
     </table>
-    <table id="462" parent="5" name="warning_weight_map">
+    <table id="462" parent="5" name="warning_types">
       <Collation>latin1_swedish_ci</Collation>
     </table>
     <table id="463" parent="5" name="warnings"/>
